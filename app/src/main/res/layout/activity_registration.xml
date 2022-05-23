@@ -6,10 +6,11 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/background_design"
-    tools:context=".LoginActivity">
+    tools:context=".RegistrationActivity">
+
 
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/loginToolbar"
+        android:id="@+id/registrationToolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#fff"
@@ -27,7 +28,7 @@
 
 
     <EditText
-        android:id="@+id/loginEmail"
+        android:id="@+id/registrationEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter email..."
@@ -46,7 +47,7 @@
         ></EditText>
 
     <EditText
-        android:id="@+id/loginPassword"
+        android:id="@+id/registrationPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter password..."
@@ -62,10 +63,10 @@
 
 
     <Button
-        android:id="@+id/loginButton"
+        android:id="@+id/registrationButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Login"
+        android:text="Register"
         android:textAllCaps="false"
         android:layout_margin="10dp"
         android:textColor="#000"
@@ -74,7 +75,7 @@
 
 
     <TextView
-        android:id="@+id/loginpageQuestion"
+        android:id="@+id/registrationPageQuestion"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Dont't have an account? Register"
