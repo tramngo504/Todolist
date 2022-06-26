@@ -107,15 +107,17 @@
 
             <Button
                 android:id="@+id/saveBtn"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="8dp"
                 android:text="Save"
                 android:textAllCaps="false"
-                android:textColor="#fff"
-                android:background="@drawable/background_design"
-                android:layout_margin="10dp"
-                android:textStyle="bold"
-                android:textSize="18sp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:background="@drawable/custom_button"
                 ></Button>
         </RelativeLayout>
 
@@ -126,15 +128,17 @@
 
             <Button
                 android:id="@+id/cancelBtn"
-                android:text="Cancel"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Save"
                 android:textAllCaps="false"
-                android:textColor="#fff"
-                android:background="@drawable/background_design"
-                android:layout_margin="10dp"
-                android:textStyle="bold"
-                android:textSize="18sp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:background="@drawable/custom_button"
                 ></Button>
         </RelativeLayout>
     </LinearLayout>
