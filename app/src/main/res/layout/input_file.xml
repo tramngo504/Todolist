@@ -11,7 +11,7 @@
         android:layout_margin="10dp"
         android:text="Add a new text"
         android:gravity="center"
-        android:background="@drawable/background_design"
+        android:background="@drawable/custom_button"
         android:padding="10dp"
         android:textColor="#fff"
         android:textStyle="bold"
@@ -50,7 +50,8 @@
                 android:hint="Task..."
                 android:textColor="#000"
                 android:textColorHint="#000"
-                android:textStyle="bold"
+                android:textStyle="normal"
+                android:textSize="14dp"
                 android:layout_margin="10dp"></EditText>
         </RelativeLayout>
     </LinearLayout>
@@ -89,7 +90,8 @@
                 android:hint="Description..."
                 android:textColor="#000"
                 android:textColorHint="#000"
-                android:textStyle="bold"
+                android:textStyle="normal"
+                android:textSize="14dp"
                 android:layout_margin="10dp"></EditText>
         </RelativeLayout>
     </LinearLayout>
@@ -116,7 +118,7 @@
                 android:layout_marginTop="8dp"
                 android:text="Save"
                 android:textAllCaps="false"
-                android:textColor="#000"
+                android:textColor="#fff"
                 android:background="@drawable/custom_button"
                 ></Button>
         </RelativeLayout>
@@ -135,9 +137,9 @@
                 android:layout_marginStart="20dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginTop="8dp"
-                android:text="Save"
+                android:text="Cancel"
                 android:textAllCaps="false"
-                android:textColor="#000"
+                android:textColor="#fff"
                 android:background="@drawable/custom_button"
                 ></Button>
         </RelativeLayout>
