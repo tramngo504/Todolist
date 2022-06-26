@@ -45,8 +45,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Task"
-                android:textStyle="bold"
+                android:textStyle="normal"
                 android:textColor="#000"
+                android:textSize="14dp"
                 android:textColorHint="#000"
                 android:layout_margin="10dp"/>
         </RelativeLayout>
@@ -80,7 +81,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Description"
-                android:textStyle="bold"
+                android:textStyle="normal"
+                android:textSize="14dp"
                 android:textColor="#000"
                 android:textColorHint="#000"
                 android:layout_margin="10dp"/>
@@ -99,15 +101,17 @@
             android:layout_weight="2">
             <Button
                 android:id="@+id/btnDelete"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="8dp"
                 android:text="Delete"
                 android:textAllCaps="false"
-                android:background="@drawable/background_design"
-                android:textColor="#fff"
-                android:textSize="17sp"
-                android:textStyle="bold"
-                android:layout_margin="10dp"/>
+                android:textColor="#000"
+                android:background="@drawable/custom_button"/>
         </RelativeLayout>
 
         <RelativeLayout
@@ -116,15 +120,17 @@
             android:layout_weight="2">
             <Button
                 android:id="@+id/btnUpdate"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="8dp"
                 android:text="Update"
                 android:textAllCaps="false"
-                android:background="@drawable/background_design"
-                android:textColor="#fff"
-                android:textSize="17sp"
-                android:textStyle="bold"
-                android:layout_margin="10dp"/>
+                android:textColor="#000"
+                android:background="@drawable/custom_button"/>
         </RelativeLayout>
     </LinearLayout>
 </LinearLayout>
