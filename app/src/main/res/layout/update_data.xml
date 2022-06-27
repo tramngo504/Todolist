@@ -46,7 +46,7 @@
                 android:layout_height="wrap_content"
                 android:hint="Task"
                 android:textStyle="normal"
-                android:textColor="#fff"
+                android:textColor="#000"
                 android:textSize="14dp"
                 android:textColorHint="#000"
                 android:layout_margin="10dp"/>
